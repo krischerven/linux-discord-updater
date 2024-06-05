@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Creating a symlink named 'update-discord' in /usr/local/bin. You may be asked for your password."
+sudo ln -s "$PWD"/linux-discord-updater.py /usr/local/bin/update-discord
